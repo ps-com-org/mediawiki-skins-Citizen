@@ -1,0 +1,109 @@
+#citizen-section-0 .introtosingle__main {
+	box-shadow: none;
+}
+
+.citizen-feature-pure-black-clientpref-0:not(.skin-citizen-light) {
+	#citizen-section-0 {
+		.introtosingle__main {
+			border-color: black;
+			background: #202122;
+		}
+
+		.mbox {
+			border-color: black !important;
+			background-color: #404244 !important;
+		}
+
+		.introtosingle__main-title,
+		.introtosingle__lead {
+			background-color: #404244;
+		}
+	}
+
+	.donation-icon {
+		background: #404244;
+	}
+
+	.donation-method {
+		border-color: #404244;
+	}
+}
+
+.citizen-feature-pure-black-clientpref-1:not(.skin-citizen-light) #citizen-section-0 {
+	.introtosingle__main {
+		border-color: white;
+	}
+
+	.introtosingle__main-title,
+	.introtosingle__lead {
+		background-color: #202122;
+	}
+
+	.donation-icon {
+		color: black;
+	}
+}
+
+.mw-parser-output #citizen-section-0 {
+	.donation-method {
+		display: flex;
+		align-items: center;
+	}
+
+	.donation-method span {
+		display: flex;
+		align-items: center;
+		height: 100%;
+	}
+
+	.donation-icon {
+		min-width: 185px;
+		padding: 2px 10px 0px 25px !important;
+		justify-content: flex-end;
+	}
+
+	span.donation-address {
+		display: inline-block;
+		padding: 0 10px !important;
+	}
+
+	.donation-address-copy-button {
+		margin: 0 8px 0 4px;
+	}
+}
+
+@media (max-width: 800px) {
+	.mw-parser-output #citizen-section-0 {
+		.donation-method {
+			width: 100%;
+		}
+	}
+}
+
+@media (max-width: 640px) {
+	.mw-parser-output #citizen-section-0 {
+		.donation-method {
+			position: relative;
+			flex-direction: column;
+			height: 65px;
+			border-radius: 5px;
+		}
+
+		.donation-method span {
+			justify-content: flex-start;
+			width: 100%;
+		}
+
+		.donation-address-copy-button {
+			position: absolute;
+			right: 7px;
+			top: 7px;
+		}
+	}
+}
+
+@media (max-width: 380px) {
+	#citizen-section-0 .introtosingle__main .mw-ui-input-inline {
+		width: 100%;
+	}
+}
