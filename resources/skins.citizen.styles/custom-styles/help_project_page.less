@@ -1,47 +1,29 @@
+// mixins start
+
+.dark-theme() {
+	&.citizen-feature-pure-black-clientpref {
+		&-0 #citizen-section-0 {
+			.donation-icon {
+				background-color: #404244;
+			}
+
+			.donation-method {
+				border-color: #404244;
+			}
+		}
+
+		&-1 #citizen-section-0 {
+			.donation-icon {
+				color: black;
+			}
+		}
+	}
+}
+
+// mixins end
+
 #citizen-section-0 .introtosingle__main {
 	box-shadow: none;
-}
-
-.citizen-feature-pure-black-clientpref-0:not(.skin-citizen-light) {
-	#citizen-section-0 {
-		.introtosingle__main {
-			border-color: black;
-			background: #202122;
-		}
-
-		.mbox {
-			border-color: black !important;
-			background-color: #404244 !important;
-		}
-
-		.introtosingle__main-title,
-		.introtosingle__lead {
-			background-color: #404244;
-		}
-	}
-
-	.donation-icon {
-		background: #404244;
-	}
-
-	.donation-method {
-		border-color: #404244;
-	}
-}
-
-.citizen-feature-pure-black-clientpref-1:not(.skin-citizen-light) #citizen-section-0 {
-	.introtosingle__main {
-		border-color: white;
-	}
-
-	.introtosingle__main-title,
-	.introtosingle__lead {
-		background-color: #202122;
-	}
-
-	.donation-icon {
-		color: black;
-	}
 }
 
 .mw-parser-output #citizen-section-0 {
@@ -70,6 +52,16 @@
 	.donation-address-copy-button {
 		margin: 0 8px 0 4px;
 	}
+}
+
+@media (prefers-color-scheme: dark) {
+	.skin-citizen-auto {
+		.dark-theme;
+	}
+}
+
+.skin-citizen-dark {
+	.dark-theme;
 }
 
 @media (max-width: 800px) {
