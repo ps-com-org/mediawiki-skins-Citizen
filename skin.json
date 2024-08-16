@@ -1,6 +1,6 @@
 {
 	"name": "Citizen",
-	"version": "2.25.0",
+	"version": "2.26.0",
 	"author": [
 		"[https://www.mediawiki.org/wiki/User:Alistair3149 Alistair3149]",
 		"[https://www.mediawiki.org/wiki/User:Octfx Octfx]",
@@ -525,6 +525,7 @@
 			"+ext.tabberNeue.init.styles": "skinStyles/extensions/TabberNeue/ext.tabberNeue.init.styles.less",
 			"+ext.templateDataGenerator.editTemplatePage": "skinStyles/extensions/TemplateData/ext.templateDataGenerator.editTemplatePage.less",
 			"+ext.uploadWizard": "skinStyles/extensions/UploadWizard/ext.uploadWizard.less",
+			"+ext.uploadWizard.uploadCampaign.display": "skinStyles/extensions/UploadWizard/ext.uploadWizard.uploadCampaign.less",
 			"+ext.uploadWizard.page.styles": "skinStyles/extensions/UploadWizard/uploadWizard.noWizard.less",
 			"+ext.userProfileV2.styles": "skinStyles/extensions/UserProfileV2/ext.userProfileV2.less",
 			"+ext.veforall.main": "skinStyles/extensions/VEForAll/ext.veforall.main.less",
