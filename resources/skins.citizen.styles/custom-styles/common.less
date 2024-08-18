@@ -41,3 +41,22 @@
 .skin-citizen-dark {
 	.dark-theme;
 }
+
+.citizen-page-container .introtosingle__body .mbox .mbox-image {
+	flex: 1 0 20% !important;
+	min-width: 100px !important;
+
+	* {
+		width: 100% !important;
+	}
+
+	figure {
+		background-color: white;
+	}
+}
+
+@media (max-width: 500px) {
+	.citizen-page-container .introtosingle__body .mbox {
+		flex-direction: column;
+	}
+}
