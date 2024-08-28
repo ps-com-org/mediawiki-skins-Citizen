@@ -28,6 +28,12 @@
 .action-edit {
 	// закрепляет панель инструментов в редакторе при релоаде страницы
 	.mw-body-header.citizen-page-header {
-		position: static;
+		top: none;
+		z-index: 1;
+
+		&::before {
+			width: 0;
+			height: 0;
+		}
 	}
 }
