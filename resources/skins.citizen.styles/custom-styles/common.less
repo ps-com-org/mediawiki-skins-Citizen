@@ -3,12 +3,11 @@
 	&.citizen-feature-pure-black-clientpref {
 		&-0 #citizen-section-0 {
 			.introtosingle__main {
-				border-color: black;
 				background: #202122;
 			}
 
 			.mbox {
-				border-color: black !important;
+				border-color: inherit !important;
 				background-color: #404244 !important;
 			}
 
@@ -20,7 +19,7 @@
 
 		&-1 #citizen-section-0 {
 			.introtosingle__main {
-				border-color: white;
+				border-color: inherit;
 			}
 
 			.introtosingle__main-title,
@@ -31,6 +30,15 @@
 	}
 }
 // mixins end
+
+.mbox {
+	border-radius: var(--border-radius--medium);
+}
+
+.citizen-body-container .mw-parser-output .introtosingle__main {
+	border-radius: var(--border-radius--medium);
+	border-color: inherit;
+}
 
 @media (prefers-color-scheme: dark) {
 	.skin-citizen-auto {
