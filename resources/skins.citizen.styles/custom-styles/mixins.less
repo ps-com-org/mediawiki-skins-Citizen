@@ -1,0 +1,13 @@
+.main-table-radius() {
+	table {
+		border-radius: var(--border-radius--medium);
+
+		tr:nth-child(3) td:first-child {
+			border-top-left-radius: var(--border-radius--medium);
+		}
+
+		tr:last-child td:first-child {
+			border-bottom-left-radius: var(--border-radius--medium);
+		}
+	}
+}
