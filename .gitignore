@@ -1,5 +1,6 @@
 # git-deploy status file:
 /.deploy
+.prettierrc
 
 # Editors
 *.kate-swp

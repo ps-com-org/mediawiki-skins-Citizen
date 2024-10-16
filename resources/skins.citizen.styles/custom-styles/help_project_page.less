@@ -2,7 +2,7 @@
 
 .dark-theme() {
 	&.citizen-feature-pure-black-clientpref {
-		&-0 #citizen-section-0 {
+		&-0 #mw-content-text {
 			.donation-icon {
 				background-color: #404244;
 			}
@@ -12,7 +12,7 @@
 			}
 		}
 
-		&-1 #citizen-section-0 {
+		&-1 #mw-content-text {
 			.donation-icon {
 				color: black;
 			}
@@ -26,7 +26,7 @@
 
 // mixins end
 
-#citizen-section-0 .introtosingle__main {
+#mw-content-text .introtosingle__main {
 	box-shadow: none;
 
 	.mbox .mbox-image figure {
@@ -41,7 +41,7 @@
 	}
 }
 
-.mw-parser-output #citizen-section-0 {
+#mw-content-text.mw-body-content {
 	.donation-method {
 		display: flex;
 		align-items: center;
@@ -81,7 +81,7 @@
 }
 
 @media (max-width: 800px) {
-	.mw-parser-output #citizen-section-0 {
+	#mw-content-text.mw-body-content {
 		.donation-method {
 			width: 100%;
 		}
@@ -89,7 +89,7 @@
 }
 
 @media (max-width: 640px) {
-	.mw-parser-output #citizen-section-0 {
+	#mw-content-text.mw-body-content {
 		.donation-method {
 			position: relative;
 			flex-direction: column;
@@ -111,7 +111,7 @@
 }
 
 @media (max-width: 380px) {
-	#citizen-section-0 .introtosingle__main .mw-ui-input-inline {
+	#mw-content-text .introtosingle__main .mw-ui-input-inline {
 		width: 100%;
 	}
 }
