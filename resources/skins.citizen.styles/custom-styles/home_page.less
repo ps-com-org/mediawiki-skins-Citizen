@@ -2,7 +2,7 @@
 
 // mixin start
 .light-theme() {
-	#citizen-section-0.citizen-section {
+	#mw-content-text.mw-body-content {
 		.mp-box {
 			border-color: inherit;
 
@@ -20,14 +20,14 @@
 
 // mixin end
 
-#citizen-section-0.citizen-section .mp-box {
+#mw-content-text.mw-body-content .mp-box {
 	#mp-bottom .mp-h2,
 	.mp-h2 {
 		border-color: inherit;
 	}
 }
 
-#citizen-section-0.citizen-section {
+#mw-content-text.mw-body-content {
 	.mp-h2,
 	.mp-box {
 		border-radius: var(--border-radius--medium);
@@ -44,7 +44,7 @@
 
 // dark theme
 
-.skin-citizen-dark #citizen-section-0.citizen-section {
+.skin-citizen-dark #mw-content-text.mw-body-content {
 	.mp-h2,
 	#mp-bottom .mp-h2 {
 		background-color: #404244;
@@ -52,7 +52,7 @@
 	}
 }
 
-.skin-citizen-dark.citizen-feature-pure-black-clientpref-1 #citizen-section-0.citizen-section {
+.skin-citizen-dark.citizen-feature-pure-black-clientpref-1 #mw-content-text.mw-body-content {
 	#mp-bottom .mp-h2,
 	.mp-h2 {
 		background-color: #202122;
@@ -61,7 +61,7 @@
 
 @media (prefers-color-scheme: dark) {
 	.citizen-feature-pure-black-clientpref-1:not(.skin-citizen-light)
-		#citizen-section-0.citizen-section {
+		#mw-content-text.mw-body-content {
 		#mp-bottom .mp-h2,
 		.mp-h2 {
 			background-color: #202122;
