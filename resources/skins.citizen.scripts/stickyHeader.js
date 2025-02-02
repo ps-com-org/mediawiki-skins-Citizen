@@ -21,11 +21,11 @@ function setCSSVariable( value ) {
  * @return {void}
  */
 function show( stickyHeader, placeholder ) {
-	const staticHeight = stickyHeader.getBoundingClientRect().height;
-	document.body.classList.add( STICKY_HEADER_VISIBLE_CLASS );
-	const stickyHeight = stickyHeader.getBoundingClientRect().height;
-	placeholder.style.height = `${ staticHeight - stickyHeight }px`;
-	setCSSVariable( stickyHeight );
+	// const staticHeight = stickyHeader.getBoundingClientRect().height;
+	// document.body.classList.add( STICKY_HEADER_VISIBLE_CLASS );
+	// const stickyHeight = stickyHeader.getBoundingClientRect().height;
+	// placeholder.style.height = `${ staticHeight - stickyHeight }px`;
+	// setCSSVariable( stickyHeight );
 }
 
 /**
